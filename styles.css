@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #3A3A3A ;
+    font-size: 50px;
+    text-align: center;
+    color: #9335C1;
+    font-family: 'Bebas Neue', cursive;
+    -webkit-text-stroke: 0.0000000000000001px #D8D7DD;
+}
+
+#container {
+    position: relative;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:600px;
+	width:600px;
+	padding: 0;
+    top: -5px;
+    border: 3px solid #D8D7DD; 
+    background-color: white;
+    box-shadow: 0 0 8px 0 black;
+}
+
+.grid {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+}
